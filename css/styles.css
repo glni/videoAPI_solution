@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Fjalla+One");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #deb273;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 18px;
+  color: #4b1e05;
+}
+
+h1 {
+  text-align: center;
+  color: #2f1202;
+  font-size: 2.1em;
+  margin: 30px 0 30px 0;
+}
+
+h2 {
+  margin: 0 0 12px 0;
+}
+
+main {
+  padding: 15px 25px;
+}
+
+article {
+  display: flex;
+}
+
+article > div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+article > div:nth-of-type(1) {
+  flex: 1 1 60%;
+  padding: 0 20px 0 0;
+}
+
+article > div:nth-of-type(2) {
+  flex: 1 1 40%;
+  padding: 0 0 0 20px;
+}
+
+article aside {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+article aside:nth-of-type(2) img {
+  width: 40%;
+  float: right;
+  border: 2px solid #deb273;
+  margin: 0 0 10px 12px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+}
+
+article aside:nth-of-type(3) img {
+  width: 40%;
+  float: left;
+  border: 2px solid #deb273;
+  margin: 0 20px 10px 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+}
+
+article aside:nth-of-type(4) img {
+  width: 65%;
+  display: block;
+  border: 2px solid #deb273;
+  margin: 10px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
+}
+
